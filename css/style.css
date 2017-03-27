@@ -1,9 +1,9 @@
+#accordion {
+    border-bottom: 1px solid #394EFF;
+}
 .faq-q a, .faq-q a:focus, .faq-q a:hover, .faq-q a:active{
     color: inherit;
     text-decoration: none;
-}
-#accordion {
-    border-bottom: 1px solid #394EFF;
 }
 form button {
     -webkit-appearance: none;
@@ -98,4 +98,10 @@ input:-ms-input-placeholder { /* IE 10+ */
 }
 input:-moz-placeholder { /* Firefox 18- */
     color: #f2f2f2 !important;
+}
+
+@media (max-width: 500px) {
+    .display-3 {
+        font-size: 3rem;
+    }
 }
