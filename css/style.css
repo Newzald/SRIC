@@ -99,9 +99,13 @@ input:-ms-input-placeholder { /* IE 10+ */
 input:-moz-placeholder { /* Firefox 18- */
     color: #f2f2f2 !important;
 }
+.navbar-toggler {
+    display: inline-flex;
+    color: white;
+}
 
 @media (max-width: 500px) {
-    .display-3 {
+    .display-2 {
         font-size: 3rem;
     }
 }
