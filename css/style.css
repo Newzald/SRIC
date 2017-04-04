@@ -87,6 +87,9 @@ form button {
 .projects img {
     margin: 0;
 }
+.header-top {
+	min-height: 100vh; /* Fills the viewer with an appealing solid blue */
+}
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #f2f2f2 !important;
 }
