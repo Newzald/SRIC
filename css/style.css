@@ -1,11 +1,11 @@
-#accordion {
+#accordion { /* Divider for FAQ questions */
     border-bottom: 1px solid #394EFF;
 }
-.faq-q a, .faq-q a:focus, .faq-q a:hover, .faq-q a:active{
+.faq-q a, .faq-q a:focus, .faq-q a:hover, .faq-q a:active{ /* Strips default link styling from FAQ links */
     color: inherit;
     text-decoration: none;
 }
-form button {
+form button { /* Over riding the form styling here is a nightmare */
     -webkit-appearance: none;
     background-color: #F9F9F6;
     box-shadow: inset 0 -6px rgba(0,0,0,0.2);
@@ -24,7 +24,7 @@ form button {
 .about {
     color: #394EFF;
 }
-.case-desc {
+.case-desc { /* Past and present cases description styling */
     background-color: #ffea39;
     color: black;
 }
@@ -39,12 +39,16 @@ form button {
     margin-top: .5rem;
     padding-top: .5rem;
 }
+.footer {
+    background-color:#394EFF;
+    padding: 1rem 2rem;
+}
 .header{
     color: white;
     background-color:#394EFF;
     padding: 6rem 2rem;
 }
-.hr-c {
+.hr-c { /* .hr-c, -w add bootstrap dividers of different colors */
     border-top: 2px solid #394EFF;
 }
 .hr-w {
@@ -66,7 +70,7 @@ form button {
 .navbar {
     background-color: #394EFF;
 }
-.low-clearance {
+.low-clearance { /* Overrides default padding on jumbotron to relieve awkward spacing */
     padding-top: 48px;
 }
 .people h1 {
@@ -88,7 +92,7 @@ form button {
     margin: 0;
 }
 .header-top {
-	min-height: 100vh; /* Fills the viewer with an appealing solid blue */
+	min-height: 95vh; /* Fills the viewer with an appealing solid blue at top header */
 }
 input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: #f2f2f2 !important;
@@ -107,7 +111,7 @@ input:-moz-placeholder { /* Firefox 18- */
     color: white;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) { /* Responsive font-size in top header */
     .display-2 {
         font-size: 3rem;
     }
